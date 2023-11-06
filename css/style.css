@@ -1,0 +1,170 @@
+body{
+    font-family: Amiko;
+}
+
+body > section#header{
+    background: url(../assets/img/wave.svg), radial-gradient(61.87% 38.19% at 58.19% 47.46%, #1A4093 0%, #0C1323 65.8%, #000 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    min-height: 400px;
+    position: relative;
+    z-index: 0;
+}
+
+body > section#about{
+    position: relative;
+    z-index: 0;
+}
+
+body > section#about{
+    background: linear-gradient(180deg, #14213D 0%, #000 62.26%);
+}
+
+/* section#header > img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+} */
+
+.header-h1{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-subtitle{
+    color: #FCA311;
+    font-family: Amiko;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-background-header{
+    z-index: -1;
+}
+
+.img-background-header > img{
+    margin-left: -150px;
+}
+
+.nav-menu-items{
+    position: relative;
+    margin-bottom: -119px;
+    z-index: 1;
+}
+
+.text-nav li a{
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-nav li a:hover{
+    color: #FCA311;
+    border-bottom: 2px solid #FCA311;
+}
+
+.contact-info a{
+    color: #FFF;
+    font-family: Amiko;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.arrow-elements{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+}
+
+.arrow-elements > img:nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.arrow-elements > img:nth-child(2){
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+.arrow-elements > img:nth-child(3){
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+}
+
+.arrow-elements > img:nth-child(4){
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+/*---ABOUT---*/
+
+.arrow-two{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+}
+
+.arrow-two > img:nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.arrow-two > img:nth-child(2){
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+.arrow-two > img:nth-child(3){
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+}
+
+.arrow-two > img:nth-child(4){
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.title-name{
+    color: #FCA311;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle-name, .button-style a{
+    color: #FFF;
+    font-family: Amiko;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 107.143% */
+}
+
+.button-style a{
+    border-radius: 10px;
+    border: 1px solid #FCA311;
+}
