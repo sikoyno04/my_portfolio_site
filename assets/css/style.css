@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: Amiko;
+    src: url(../font/Amiko-Regular.ttf);
+}
+@font-face {
+    font-family: Amiko-Bold;
+    src: url(../font/Amiko-Bold.ttf);
+}
+@font-face {
+    font-family: Amiko-SemiBold;
+    src: url(../font/Amiko-SemiBold.ttf);
+}
+
 body{
     font-family: Amiko;
 }
